@@ -1,0 +1,16 @@
+<?php
+
+$factory->define(App\workstatus::class, function (Faker\Generator $faker) {
+   
+
+    return [
+    	'materials' => $faker->sentence,
+    	'WorkDue' => $faker->sentence,
+    	'completed' => $faker->sentence,
+    	'others'=> $faker->sentence,
+    	'Select' => $faker->sentence,
+    	'worker' => $faker->sentence,
+    	'date' => $faker->sentence,
+    	'time' => $faker->sentence,
+
+});
